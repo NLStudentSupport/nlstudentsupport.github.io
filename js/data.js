@@ -1400,20 +1400,20 @@ const universities = {
     website: "https://www.ahk.nl",
     services: {
       psychologist: {
-        title: "Student Psychologist",
-        description: "Psychological support and counselling",
-        url: "https://www.ahk.nl/en/practical-information/studying-at-ahk/student-facilities/",
+        title: "Student Coach",
+        description: "Coaching for time management, study-related stress, and personal development",
+        url: "https://www.ahk.nl/en/study/during-your-study-programme/student-affairs/support-during-your-study/student-coach-1/",
         freeOfCharge: true
       },
       counsellor: {
         title: "Student Counsellor",
         description: "Support with personal circumstances",
-        url: "https://www.ahk.nl/en/practical-information/studying-at-ahk/student-facilities/"
+        url: "https://www.ahk.nl/en/study/during-your-study-programme/student-affairs/support-during-your-study/student-counsellor/"
       },
       wellbeing: {
-        title: "Student Facilities",
+        title: "Support During Your Study",
         description: "General support and wellbeing resources",
-        url: "https://www.ahk.nl/en/practical-information/studying-at-ahk/student-facilities/"
+        url: "https://www.ahk.nl/en/study/during-your-study-programme/student-affairs/support-during-your-study/"
       }
     }
   },
