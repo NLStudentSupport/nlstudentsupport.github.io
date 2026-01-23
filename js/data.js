@@ -162,7 +162,7 @@ const universities = {
       psychologist: {
         title: "Student Psychologists",
         description: "Psychological support and counselling",
-        url: "https://www.student.universiteitleiden.nl/en/study--studying/guidance--advice/study-guidance-and-advisors/student-psychologist/leiden-university/guest",
+        url: "https://www.student.universiteitleiden.nl/en/support-and-well-being/health-and-well-being/mental-well-being",
         email: "psychologen@sea.leidenuniv.nl",
         freeOfCharge: true
       },
@@ -571,12 +571,12 @@ const universities = {
       studyAdvisor: {
         title: "Study Advisers",
         description: "Academic guidance per programme",
-        url: "https://www.wur.nl/en/Education-Programmes/Current-Students/Student-Guidance.htm"
+        url: "https://www.wur.nl/en/education/studying-wageningen/support-and-wellbeing"
       },
       disability: {
         title: "Studying with a Disability",
         description: "Support for students with disabilities",
-        url: "https://www.wur.nl/en/education-programmes/current-students/student-guidance/student-dean/studying-with-a-disability-1.htm"
+        url: "https://servicenow.wur.nl/esc?id=kb_article&sysparm_article=KB0017078"
       },
       financial: {
         title: "Financial Support (FOS)",
@@ -1427,18 +1427,18 @@ const universities = {
       psychologist: {
         title: "Student Support",
         description: "Psychological support and counselling",
-        url: "https://www.hku.nl/en/practical-information/studying-at-hku",
+        url: "https://www.hku.nl/en/study-at-hku",
         freeOfCharge: true
       },
       counsellor: {
         title: "Student Affairs",
         description: "Support with personal circumstances",
-        url: "https://www.hku.nl/en/practical-information/studying-at-hku"
+        url: "https://www.hku.nl/en/study-at-hku"
       },
       wellbeing: {
         title: "Student Support",
         description: "General support and wellbeing",
-        url: "https://www.hku.nl/en/practical-information/studying-at-hku"
+        url: "https://www.hku.nl/en/study-at-hku"
       }
     }
   },
@@ -1452,17 +1452,17 @@ const universities = {
       counsellor: {
         title: "Student Counsellor",
         description: "Support with personal circumstances",
-        url: "https://www.kabk.nl/en/study-at-kabk/studying-at-kabk"
+        url: "https://www.kabk.nl/en/practical-matters"
       },
       studyAdvisor: {
         title: "Study Information",
         description: "Academic guidance and support",
-        url: "https://www.kabk.nl/en/study-at-kabk/studying-at-kabk"
+        url: "https://www.kabk.nl/en/practical-matters"
       },
       wellbeing: {
         title: "Student Support",
         description: "General support and wellbeing",
-        url: "https://www.kabk.nl/en/study-at-kabk/studying-at-kabk"
+        url: "https://www.kabk.nl/en/practical-matters"
       }
     }
   },
@@ -1474,14 +1474,14 @@ const universities = {
     website: "https://www.koncon.nl",
     services: {
       counsellor: {
-        title: "Student Affairs",
+        title: "Student Counsellor",
         description: "Support with personal circumstances",
-        url: "https://www.koncon.nl/en/study-information/practical-information"
+        url: "https://www.koncon.nl/en/studentcounsellor"
       },
       wellbeing: {
         title: "Student Support",
         description: "Health and wellbeing resources",
-        url: "https://www.koncon.nl/en/study-information/practical-information"
+        url: "https://www.koncon.nl/en/practice-health-well-being-at-the-royal-conservatoire/student-guidance-counselling-and-confidentiality"
       }
     }
   },
@@ -1495,17 +1495,17 @@ const universities = {
       counsellor: {
         title: "Student Counsellor",
         description: "Support with personal circumstances",
-        url: "https://www.wdka.nl/practical-information/studying-at-wdka"
+        url: "https://www.wdka.nl/contact"
       },
       studyAdvisor: {
         title: "Study Coach",
         description: "Academic guidance and support",
-        url: "https://www.wdka.nl/practical-information/studying-at-wdka"
+        url: "https://www.wdka.nl/contact"
       },
       wellbeing: {
         title: "Student Support",
         description: "General support and wellbeing",
-        url: "https://www.wdka.nl/practical-information/studying-at-wdka"
+        url: "https://www.wdka.nl/contact"
       }
     }
   },
@@ -1545,19 +1545,19 @@ const universities = {
     website: "https://www.nyenrode.nl",
     services: {
       counsellor: {
-        title: "Student Services",
+        title: "Confidential Advisors",
         description: "Support with personal circumstances",
-        url: "https://www.nyenrode.nl/en/student-life"
+        url: "https://www.nyenrode.nl/en/confidential-advisors"
       },
       studyAdvisor: {
         title: "Academic Support",
         description: "Study guidance",
-        url: "https://www.nyenrode.nl/en/student-life"
+        url: "https://www.nyenrode.nl/en/information/facility/living-on-campus"
       },
       wellbeing: {
         title: "Student Life",
         description: "Campus life and wellbeing",
-        url: "https://www.nyenrode.nl/en/student-life"
+        url: "https://www.nyenrode.nl/en/information/facility/living-on-campus"
       }
     }
   },
@@ -1571,12 +1571,12 @@ const universities = {
       counsellor: {
         title: "Student Affairs",
         description: "Support for international students",
-        url: "https://www.un-ihe.org/student-services"
+        url: "https://www.un-ihe.org/education/student-experiences"
       },
       wellbeing: {
         title: "Student Services",
         description: "General support and wellbeing",
-        url: "https://www.un-ihe.org/student-services"
+        url: "https://www.un-ihe.org/education/student-experiences"
       }
     }
   },
@@ -1590,17 +1590,17 @@ const universities = {
       counsellor: {
         title: "Student Support",
         description: "Personal guidance and support",
-        url: "https://www.tio.nl/en/studying-at-tio/"
+        url: "https://www.tio.nl/en/studychoice/"
       },
       studyAdvisor: {
         title: "Study Coach",
         description: "Academic guidance",
-        url: "https://www.tio.nl/en/studying-at-tio/"
+        url: "https://www.tio.nl/en/studychoice/"
       },
       wellbeing: {
         title: "Student Wellbeing",
         description: "General support services",
-        url: "https://www.tio.nl/en/studying-at-tio/"
+        url: "https://www.tio.nl/en/studychoice/"
       }
     }
   },
