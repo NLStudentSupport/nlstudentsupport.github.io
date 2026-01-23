@@ -84,7 +84,7 @@ Visit the website, select your university from the directory, and choose the typ
 
 | Service | Title | Link | Contact |
 |---------|-------|------|---------|
-| Psychologist | Student Psychologists | [Link](https://www.student.universiteitleiden.nl/en/study--studying/guidance--advice/study-guidance-and-advisors/student-psychologist/leiden-university/guest) | psychologen@sea.leidenuniv.nl |
+| Psychologist | Student Psychologists | [Link](https://www.student.universiteitleiden.nl/en/support-and-well-being/health-and-well-being/mental-well-being) | psychologen@sea.leidenuniv.nl |
 | Counsellor | Student Counsellors | [Link](https://www.student.universiteitleiden.nl/en/study--studying/guidance--advice/study-guidance-and-advisors/student-counsellors/leiden-university) | - |
 | Study Adviser | Study Advisers | [Link](https://www.student.universiteitleiden.nl/en/study--studying/guidance--advice/study-guidance-and-advisors) | - |
 | Disability | Disability Support (Fenestra) | [Link](https://www.student.universiteitleiden.nl/en/support-and-well-being/study-guidance-and-support/studying-with-a-disability/studying-with-a-disability-1) | - |
@@ -187,8 +187,8 @@ Visit the website, select your university from the directory, and choose the typ
 |---------|-------|------|---------|
 | Psychologist | Student Psychologists | [Link](https://www.wur.nl/en/education/studying-wageningen/support-and-wellbeing) | studentpsychologists@wur.nl |
 | Counsellor | Student Deans | [Link](https://www.wur.nl/en/education/studying-wageningen/support-and-wellbeing) | studentdean@wur.nl, 0317-483618 |
-| Study Adviser | Study Advisers | [Link](https://www.wur.nl/en/Education-Programmes/Current-Students/Student-Guidance.htm) | - |
-| Disability | Studying with a Disability | [Link](https://www.wur.nl/en/education-programmes/current-students/student-guidance/student-dean/studying-with-a-disability-1.htm) | - |
+| Study Adviser | Study Advisers | [Link](https://www.wur.nl/en/education/studying-wageningen/support-and-wellbeing) | - |
+| Disability | Studying with a Disability | [Link](https://servicenow.wur.nl/esc?id=kb_article&sysparm_article=KB0017078) | - |
 | Financial | Financial Support (FOS) | [Link](https://www.wur.nl/en/education/studying-wageningen/support-and-wellbeing) | - |
 | Wellbeing | Support & Wellbeing | [Link](https://www.wur.nl/en/education/studying-wageningen/support-and-wellbeing) | - |
 
@@ -279,11 +279,11 @@ Visit the website, select your university from the directory, and choose the typ
 | Rietveld | [Student Support & Wellbeing](https://rietveldacademie.nl/en/page/25524/student-support-wellbeing) |
 | Codarts | [Student Life Programme](https://www.codarts.nl/en/student-life/student-life-programme/) |
 | CvA | [Student Counsellor](https://www.conservatoriumvanamsterdam.nl/en/study/studying-at-the-cva/health-and-safety/student-counsellor/) |
-| AHK | [Student Facilities](https://www.ahk.nl/en/practical-information/studying-at-ahk/student-facilities/) |
-| HKU | [Studying at HKU](https://www.hku.nl/en/practical-information/studying-at-hku) |
-| KABK | [Studying at KABK](https://www.kabk.nl/en/study-at-kabk/studying-at-kabk) |
-| KC | [Practical Information](https://www.koncon.nl/en/study-information/practical-information) |
-| WdKA | [Studying at WdKA](https://www.wdka.nl/practical-information/studying-at-wdka) |
+| AHK | [Support During Your Study](https://www.ahk.nl/en/study/during-your-study-programme/student-affairs/support-during-your-study/) |
+| HKU | [Study at HKU](https://www.hku.nl/en/study-at-hku) |
+| KABK | [Practical Matters](https://www.kabk.nl/en/practical-matters) |
+| KC | [Student Counsellor](https://www.koncon.nl/en/studentcounsellor) |
+| WdKA | [Contact](https://www.wdka.nl/contact) |
 
 ---
 
@@ -302,9 +302,9 @@ Visit the website, select your university from the directory, and choose the typ
 | University | Support Page |
 |------------|--------------|
 | HTH | [Student Life](https://www.hotelschool.nl/study/student-life/) |
-| Nyenrode | [Student Life](https://www.nyenrode.nl/en/student-life) |
-| IHE Delft | [Student Services](https://www.un-ihe.org/student-services) |
-| Tio | [Studying at Tio](https://www.tio.nl/en/studying-at-tio/) |
+| Nyenrode | [Confidential Advisors](https://www.nyenrode.nl/en/confidential-advisors) |
+| IHE Delft | [Student Experiences](https://www.un-ihe.org/education/student-experiences) |
+| Tio | [Study Choice](https://www.tio.nl/en/studychoice/) |
 | PThU | [Education](https://www.pthu.nl/en/education/) |
 
 ---
