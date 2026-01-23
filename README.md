@@ -6,7 +6,7 @@ A free resource to help students in the Netherlands find mental health and suppo
 
 ## Features
 
-- Directory of 60+ Dutch higher education institutions
+- Directory of 49 Dutch higher education institutions
 - Search and filter by institution type
 - Find support services by category:
   - Mental Health / Psychologist
