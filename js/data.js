@@ -232,9 +232,9 @@ const universities = {
         url: "https://www.eur.nl/en/education/practical-matters/financial-matters/scholarships-grants/financial-aid"
       },
       wellbeing: {
-        title: "Personal Support Hub",
-        description: "Wellbeing resources and support",
-        url: "https://www.eur.nl/en/education/study-rotterdam/student-wellbeing/personal-support-hub"
+        title: "Student Wellbeing Platform",
+        description: "Wellbeing resources, the Living Room, and the ROOM app",
+        url: "https://www.eur.nl/en/education/study-rotterdam/student-wellbeing"
       }
     }
   },
@@ -329,8 +329,8 @@ const universities = {
       },
       wellbeing: {
         title: "Student Wellbeing",
-        description: "Wellbeing and mental health resources",
-        url: "https://www.tue.nl/en/our-university/about-the-university/student-wellbeing/where-to-find-support"
+        description: "Wellbeing and mental health resources, and where to find support",
+        url: "https://educationguide.tue.nl/guidance-and-development/student-wellbeing"
       }
     }
   },
@@ -1359,13 +1359,13 @@ const universities = {
     services: {
       wellbeing: {
         title: "StudentenWelzijn",
-        description: "Student wellbeing support",
-        url: "https://www.che.nl/studentenwelzijn"
+        description: "Student psychologists, chaplaincy, and the inclusion team",
+        url: "https://che.nl/studeren-in-ede/financien-ondersteuning/studentenwelzijn"
       },
       studyAdvisor: {
-        title: "Studying at CHE",
-        description: "Study support and guidance",
-        url: "https://www.che.nl/en/studying-che"
+        title: "Adviseurs Studiesucces and Studentendecanaat",
+        description: "Study-success advisers and the student dean's office",
+        url: "https://che.nl/studeren-in-ede/financien-ondersteuning/studentenwelzijn"
       }
     }
   },
