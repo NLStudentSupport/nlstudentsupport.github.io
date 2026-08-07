@@ -21,12 +21,17 @@ jobs:
         with:
           # Several Dutch institutions sit behind a bot filter and answer 403 or
           # 429 to anything that is not a browser, so those are accepted rather
-          # than reported. The localhost example in the README is not a link.
+          # than reported. LinkedIn answers 999 and Google Forms 401 to the same
+          # kind of request, and neither can be made to behave, so those two
+          # hosts are skipped. The localhost example in the README is not a link.
           args: >-
             --no-progress
             --max-retries 3
             --timeout 30
+            --root-dir "${{ github.workspace }}"
             --accept "200..204,206,403,429"
             --exclude "^http://localhost"
+            --exclude "linkedin\.com"
+            --exclude "forms\.gle"
             js/data.js index.html iran-support/index.html README.md
           fail: true
