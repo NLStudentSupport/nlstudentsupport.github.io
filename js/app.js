@@ -8,6 +8,7 @@ var nationalResourcesSection = document.getElementById('national-resources');
 var filtersSidebar = document.getElementById('filters-sidebar');
 var mobileFilterBtn = document.getElementById('mobile-filter-btn');
 var clearFiltersBtn = document.getElementById('clear-filters');
+var verifiedNote = document.getElementById('verified-note');
 
 var selectedInstitution = null;
 var currentSearch = '';
@@ -23,12 +24,30 @@ document.addEventListener('DOMContentLoaded', function() {
   updateTypeCounts();
   renderInstitutionList();
   renderNationalResources();
+  renderVerifiedNote();
   setupFilters();
   setupSearch();
   setupMobileFilter();
   setupAlertBanner();
   setupTabs();
 });
+
+// "2026-08-07" -> "7 August 2026". Parsed by hand rather than through Date so
+// the result does not shift with the reader's time zone.
+function formatDate(iso) {
+  var months = ['January', 'February', 'March', 'April', 'May', 'June',
+                'July', 'August', 'September', 'October', 'November', 'December'];
+  var parts = String(iso).split('-');
+  if (parts.length !== 3) return iso;
+  return parseInt(parts[2], 10) + ' ' + months[parseInt(parts[1], 10) - 1] + ' ' + parts[0];
+}
+
+function renderVerifiedNote() {
+  if (!verifiedNote || typeof directoryMeta === 'undefined') return;
+  verifiedNote.textContent = 'Every link was opened and checked on '
+    + formatDate(directoryMeta.lastChecked)
+    + '. Institutions change their pages often — always verify with your own institution.';
+}
 
 function setupTabs() {
   var tabBtns = document.querySelectorAll('.tab-btn');
@@ -283,6 +302,9 @@ function renderServiceCategories() {
   html += '<div class="services-type">' + typeLabel + '</div>';
   html += '<h2>' + uni.name + '</h2>';
   html += '<p>Select a support service</p>';
+  if (uni.lastVerified) {
+    html += '<p class="services-verified">Links checked ' + formatDate(uni.lastVerified) + '</p>';
+  }
   html += '</div>';
   html += '<a href="' + uni.website + '" target="_blank" rel="noopener noreferrer" class="website-link">Visit website</a>';
   html += '</div>';

@@ -7,6 +7,7 @@ const universities = {
     name: "University of Amsterdam",
     shortName: "UvA",
     type: "research",
+    lastVerified: "2026-08-07",
     website: "https://www.uva.nl",
     contactPerson: {
       name: "Student Support Team",
@@ -59,6 +60,7 @@ const universities = {
     name: "Vrije Universiteit Amsterdam",
     shortName: "VU",
     type: "research",
+    lastVerified: "2026-08-07",
     website: "https://www.vu.nl",
     contactPerson: {
       name: "VU Student Desk",
@@ -111,6 +113,7 @@ const universities = {
     name: "Utrecht University",
     shortName: "UU",
     type: "research",
+    lastVerified: "2026-08-07",
     website: "https://www.uu.nl",
     contactPerson: {
       name: "Student Affairs Office",
@@ -157,6 +160,7 @@ const universities = {
     name: "Leiden University",
     shortName: "Leiden",
     type: "research",
+    lastVerified: "2026-08-07",
     website: "https://www.universiteitleiden.nl",
     services: {
       psychologist: {
@@ -198,6 +202,7 @@ const universities = {
     name: "Erasmus University Rotterdam",
     shortName: "EUR",
     type: "research",
+    lastVerified: "2026-08-07",
     website: "https://www.eur.nl",
     contactPerson: {
       name: "EUR Student Desk",
@@ -243,6 +248,7 @@ const universities = {
     name: "Delft University of Technology",
     shortName: "TU Delft",
     type: "research",
+    lastVerified: "2026-08-07",
     website: "https://www.tudelft.nl",
     contactPerson: {
       name: "Student Counselling Team",
@@ -297,6 +303,7 @@ const universities = {
     name: "Eindhoven University of Technology",
     shortName: "TU/e",
     type: "research",
+    lastVerified: "2026-08-07",
     website: "https://www.tue.nl",
     services: {
       psychologist: {
@@ -339,6 +346,7 @@ const universities = {
     name: "University of Twente",
     shortName: "UT",
     type: "research",
+    lastVerified: "2026-08-07",
     website: "https://www.utwente.nl",
     services: {
       psychologist: {
@@ -381,6 +389,7 @@ const universities = {
     name: "University of Groningen",
     shortName: "RUG",
     type: "research",
+    lastVerified: "2026-08-07",
     website: "https://www.rug.nl",
     services: {
       psychologist: {
@@ -421,6 +430,7 @@ const universities = {
     name: "Radboud University",
     shortName: "RU",
     type: "research",
+    lastVerified: "2026-08-07",
     website: "https://www.ru.nl",
     services: {
       psychologist: {
@@ -463,6 +473,7 @@ const universities = {
     name: "Maastricht University",
     shortName: "UM",
     type: "research",
+    lastVerified: "2026-08-07",
     website: "https://www.maastrichtuniversity.nl",
     services: {
       psychologist: {
@@ -505,6 +516,7 @@ const universities = {
     name: "Tilburg University",
     shortName: "Tilburg",
     type: "research",
+    lastVerified: "2026-08-07",
     website: "https://www.tilburguniversity.edu",
     services: {
       psychologist: {
@@ -552,6 +564,7 @@ const universities = {
     name: "Wageningen University & Research",
     shortName: "WUR",
     type: "research",
+    lastVerified: "2026-08-07",
     website: "https://www.wur.nl",
     services: {
       psychologist: {
@@ -595,6 +608,7 @@ const universities = {
     name: "Open University",
     shortName: "OU",
     type: "research",
+    lastVerified: "2026-08-07",
     website: "https://www.ou.nl",
     services: {
       counsellor: {
@@ -630,6 +644,7 @@ const universities = {
     name: "Amsterdam University of Applied Sciences",
     shortName: "HvA",
     type: "applied",
+    lastVerified: "2026-08-07",
     website: "https://www.hva.nl",
     contactPerson: {
       name: "HvA Student Support",
@@ -670,6 +685,7 @@ const universities = {
     name: "HU University of Applied Sciences Utrecht",
     shortName: "HU",
     type: "applied",
+    lastVerified: "2026-08-07",
     website: "https://www.hu.nl",
     services: {
       psychologist: {
@@ -708,6 +724,7 @@ const universities = {
     name: "Rotterdam University of Applied Sciences",
     shortName: "HR",
     type: "applied",
+    lastVerified: "2026-08-07",
     website: "https://www.hogeschoolrotterdam.nl",
     services: {
       psychologist: {
@@ -743,6 +760,7 @@ const universities = {
     name: "The Hague University of Applied Sciences",
     shortName: "THUAS",
     type: "applied",
+    lastVerified: "2026-08-07",
     website: "https://www.thuas.com",
     services: {
       psychologist: {
@@ -779,6 +797,7 @@ const universities = {
     name: "Fontys University of Applied Sciences",
     shortName: "Fontys",
     type: "applied",
+    lastVerified: "2026-08-07",
     website: "https://www.fontys.nl",
     services: {
       psychologist: {
@@ -816,6 +835,7 @@ const universities = {
     name: "HAN University of Applied Sciences",
     shortName: "HAN",
     type: "applied",
+    lastVerified: "2026-08-07",
     website: "https://www.han.nl",
     services: {
       psychologist: {
@@ -851,6 +871,7 @@ const universities = {
     name: "Saxion University of Applied Sciences",
     shortName: "Saxion",
     type: "applied",
+    lastVerified: "2026-08-07",
     website: "https://www.saxion.edu",
     services: {
       psychologist: {
@@ -886,6 +907,7 @@ const universities = {
     name: "Hanze University of Applied Sciences",
     shortName: "Hanze",
     type: "applied",
+    lastVerified: "2026-08-07",
     website: "https://www.hanze.nl",
     services: {
       psychologist: {
@@ -921,6 +943,7 @@ const universities = {
     name: "NHL Stenden University of Applied Sciences",
     shortName: "NHL Stenden",
     type: "applied",
+    lastVerified: "2026-08-07",
     website: "https://www.nhlstenden.com",
     services: {
       psychologist: {
@@ -958,6 +981,7 @@ const universities = {
     name: "Inholland University of Applied Sciences",
     shortName: "Inholland",
     type: "applied",
+    lastVerified: "2026-08-07",
     website: "https://www.inholland.nl",
     services: {
       psychologist: {
@@ -988,6 +1012,7 @@ const universities = {
     name: "Avans University of Applied Sciences",
     shortName: "Avans",
     type: "applied",
+    lastVerified: "2026-08-07",
     website: "https://www.avans.nl",
     services: {
       psychologist: {
@@ -1018,6 +1043,7 @@ const universities = {
     name: "Windesheim University of Applied Sciences",
     shortName: "Windesheim",
     type: "applied",
+    lastVerified: "2026-08-07",
     website: "https://www.windesheim.nl",
     services: {
       psychologist: {
@@ -1048,6 +1074,7 @@ const universities = {
     name: "Zuyd University of Applied Sciences",
     shortName: "Zuyd",
     type: "applied",
+    lastVerified: "2026-08-07",
     website: "https://www.zuyd.nl",
     services: {
       psychologist: {
@@ -1080,6 +1107,7 @@ const universities = {
     name: "HZ University of Applied Sciences",
     shortName: "HZ",
     type: "applied",
+    lastVerified: "2026-08-07",
     website: "https://hz.nl",
     services: {
       psychologist: {
@@ -1110,6 +1138,7 @@ const universities = {
     name: "Leiden University of Applied Sciences",
     shortName: "HS Leiden",
     type: "applied",
+    lastVerified: "2026-08-07",
     website: "https://www.hsleiden.nl",
     services: {
       psychologist: {
@@ -1140,6 +1169,7 @@ const universities = {
     name: "Breda University of Applied Sciences",
     shortName: "BUas",
     type: "applied",
+    lastVerified: "2026-08-07",
     website: "https://www.buas.nl",
     services: {
       psychologist: {
@@ -1171,6 +1201,7 @@ const universities = {
     name: "Aeres University of Applied Sciences",
     shortName: "Aeres",
     type: "applied",
+    lastVerified: "2026-08-07",
     website: "https://www.aeres.nl",
     services: {
       counsellor: {
@@ -1195,6 +1226,7 @@ const universities = {
     name: "Van Hall Larenstein University of Applied Sciences",
     shortName: "VHL",
     type: "applied",
+    lastVerified: "2026-08-07",
     website: "https://www.hvhl.nl",
     services: {
       psychologist: {
@@ -1226,6 +1258,7 @@ const universities = {
     name: "ArtEZ University of the Arts",
     shortName: "ArtEZ",
     type: "arts",
+    lastVerified: "2026-08-07",
     website: "https://www.artez.nl",
     services: {
       counsellor: {
@@ -1250,6 +1283,7 @@ const universities = {
     name: "Design Academy Eindhoven",
     shortName: "DAE",
     type: "arts",
+    lastVerified: "2026-08-07",
     website: "https://www.designacademy.nl",
     services: {
       psychologist: {
@@ -1275,6 +1309,7 @@ const universities = {
     name: "Gerrit Rietveld Academie",
     shortName: "Rietveld",
     type: "arts",
+    lastVerified: "2026-08-07",
     website: "https://rietveldacademie.nl",
     services: {
       psychologist: {
@@ -1301,6 +1336,7 @@ const universities = {
     name: "Codarts Rotterdam",
     shortName: "Codarts",
     type: "arts",
+    lastVerified: "2026-08-07",
     website: "https://www.codarts.nl",
     services: {
       psychologist: {
@@ -1336,6 +1372,7 @@ const universities = {
     name: "Conservatorium van Amsterdam",
     shortName: "CvA",
     type: "arts",
+    lastVerified: "2026-08-07",
     website: "https://www.conservatoriumvanamsterdam.nl",
     services: {
       counsellor: {
@@ -1355,6 +1392,7 @@ const universities = {
     name: "Christelijke Hogeschool Ede",
     shortName: "CHE",
     type: "applied",
+    lastVerified: "2026-08-07",
     website: "https://www.che.nl",
     services: {
       wellbeing: {
@@ -1374,6 +1412,7 @@ const universities = {
     name: "Thomas More Hogeschool",
     shortName: "Thomas More",
     type: "applied",
+    lastVerified: "2026-08-07",
     website: "https://www.thomasmorehs.nl",
     services: {
       wellbeing: {
@@ -1397,6 +1436,7 @@ const universities = {
     name: "Amsterdam University of the Arts",
     shortName: "AHK",
     type: "arts",
+    lastVerified: "2026-08-07",
     website: "https://www.ahk.nl",
     services: {
       psychologist: {
@@ -1422,6 +1462,7 @@ const universities = {
     name: "HKU University of the Arts Utrecht",
     shortName: "HKU",
     type: "arts",
+    lastVerified: "2026-08-07",
     website: "https://www.hku.nl",
     services: {
       psychologist: {
@@ -1447,6 +1488,7 @@ const universities = {
     name: "Royal Academy of Art, The Hague",
     shortName: "KABK",
     type: "arts",
+    lastVerified: "2026-08-07",
     website: "https://www.kabk.nl",
     services: {
       counsellor: {
@@ -1471,6 +1513,7 @@ const universities = {
     name: "Royal Conservatoire The Hague",
     shortName: "KC",
     type: "arts",
+    lastVerified: "2026-08-07",
     website: "https://www.koncon.nl",
     services: {
       counsellor: {
@@ -1490,6 +1533,7 @@ const universities = {
     name: "Willem de Kooning Academy",
     shortName: "WdKA",
     type: "arts",
+    lastVerified: "2026-08-07",
     website: "https://www.wdka.nl",
     services: {
       counsellor: {
@@ -1518,6 +1562,7 @@ const universities = {
     name: "Hotelschool The Hague",
     shortName: "HTH",
     type: "specialized",
+    lastVerified: "2026-08-07",
     website: "https://www.hotelschool.nl",
     services: {
       counsellor: {
@@ -1542,6 +1587,7 @@ const universities = {
     name: "Nyenrode Business University",
     shortName: "Nyenrode",
     type: "specialized",
+    lastVerified: "2026-08-07",
     website: "https://www.nyenrode.nl",
     services: {
       counsellor: {
@@ -1566,6 +1612,7 @@ const universities = {
     name: "IHE Delft Institute for Water Education",
     shortName: "IHE Delft",
     type: "specialized",
+    lastVerified: "2026-08-07",
     website: "https://www.un-ihe.org",
     services: {
       counsellor: {
@@ -1585,6 +1632,7 @@ const universities = {
     name: "Tio University of Applied Sciences",
     shortName: "Tio",
     type: "specialized",
+    lastVerified: "2026-08-07",
     website: "https://www.tio.nl",
     services: {
       counsellor: {
@@ -1613,6 +1661,7 @@ const universities = {
     name: "Protestant Theological University",
     shortName: "PThU",
     type: "specialized",
+    lastVerified: "2026-08-07",
     website: "https://www.pthu.nl",
     services: {
       counsellor: {
@@ -1733,4 +1782,11 @@ const serviceCategories = {
     label: "Urgent",
     description: "Immediate help in crisis situations"
   }
+};
+
+const directoryMeta = {
+  // Every link in this file was opened and read on this date. The weekly link
+  // check in CI catches breakage between reviews; this is the last time a
+  // person confirmed the page behind each link is still the right page.
+  lastChecked: "2026-08-07"
 };
