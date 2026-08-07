@@ -121,29 +121,29 @@ const universities = {
       psychologist: {
         title: "Student Psychologists",
         description: "Psychological assistance for students",
-        url: "https://students.uu.nl/en/guidance-and-development/who-to-contact/schedule-an-appointment-with-student-psychologist",
+        url: "https://students.uu.nl/en/support-and-development/contact/student-psychologist",
         freeOfCharge: true
       },
       counsellor: {
         title: "Student Counsellors",
         description: "Support with personal circumstances",
-        url: "https://students.uu.nl/en/guidance-and-development/who-to-contact"
+        url: "https://students.uu.nl/en/support-and-development/contact/student-counsellor"
       },
       studyAdvisor: {
         title: "Study Advisers",
         description: "Academic planning and guidance",
-        url: "https://students.uu.nl/en/guidance-and-development/who-to-contact"
+        url: "https://students.uu.nl/en/support-and-development/whom-to-contact-for-guidance"
       },
       disability: {
         title: "Disability Support",
         description: "Facilities and support for students with functional disabilities",
-        url: "https://students.uu.nl/en/guidance-and-development/student-guidance/studying-with-a-disability",
+        url: "https://students.uu.nl/en/support-and-development/support/studying-with-a-disability",
         email: "disability@uu.nl"
       },
       financial: {
         title: "Financial Support",
         description: "Financial assistance and advice",
-        url: "https://students.uu.nl/en/support-and-development/whom-to-contact-for-guidance/support/studying-with-a-disability/financial-provisions"
+        url: "https://students.uu.nl/en/support-and-development/support/studying-with-a-disability/financial-provisions"
       },
       wellbeing: {
         title: "Student Wellbeing",
@@ -162,34 +162,34 @@ const universities = {
       psychologist: {
         title: "Student Psychologists",
         description: "Psychological support and counselling",
-        url: "https://www.student.universiteitleiden.nl/en/support-and-well-being/health-and-well-being/mental-well-being",
+        url: "https://www.student.universiteitleiden.nl/en/support/health-and-well-being/where-to-turn/student-psychologists",
         email: "psychologen@sea.leidenuniv.nl",
         freeOfCharge: true
       },
       counsellor: {
-        title: "Student Counsellors",
-        description: "Help with personal circumstances and regulations",
-        url: "https://www.student.universiteitleiden.nl/en/study--studying/guidance--advice/study-guidance-and-advisors/student-counsellors/leiden-university"
+        title: "Where to Turn",
+        description: "Who to contact for personal circumstances and study delay",
+        url: "https://www.student.universiteitleiden.nl/en/support/health-and-well-being/where-to-turn"
       },
       studyAdvisor: {
         title: "Study Advisers",
         description: "Academic guidance and planning (via faculty)",
-        url: "https://www.student.universiteitleiden.nl/en/study--studying/guidance--advice/study-guidance-and-advisors"
+        url: "https://www.student.universiteitleiden.nl/en/your-study-programme/contact-and-advice"
       },
       disability: {
         title: "Disability Support (Fenestra)",
         description: "Support for students with disabilities",
-        url: "https://www.student.universiteitleiden.nl/en/support-and-well-being/study-guidance-and-support/studying-with-a-disability/studying-with-a-disability-1"
+        url: "https://www.student.universiteitleiden.nl/en/support/study-support/studying-with-a-disability"
       },
       financial: {
         title: "Financial Support",
         description: "Financial aid and emergency funds",
-        url: "https://www.student.universiteitleiden.nl/en/support-and-well-being/study-guidance-and-support/studying-with-a-disability/financial-support"
+        url: "https://www.student.universiteitleiden.nl/en/support/money-matters"
       },
       wellbeing: {
         title: "Mental Well-being",
         description: "General wellbeing resources",
-        url: "https://www.student.universiteitleiden.nl/en/support-and-well-being/health-and-well-being/mental-well-being"
+        url: "https://www.student.universiteitleiden.nl/en/support/health-and-well-being"
       }
     }
   },
@@ -537,7 +537,7 @@ const universities = {
       wellbeing: {
         title: "Mentally Fit",
         description: "Mental health and wellbeing resources",
-        url: "https://www.tilburguniversity.edu/students/tutoring/psychologist/mental-health"
+        url: "https://www.tilburguniversity.edu/students/mentally-fit"
       },
       crisis: {
         title: "Helpline",
