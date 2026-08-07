@@ -1108,6 +1108,28 @@ footer a:hover {
   text-decoration: underline;
 }
 
+/* Both of these sit inside .action-section, whose own `p` rule is more
+   specific than a bare class, so they are scoped to win. */
+.action-section .form-privacy {
+  margin: 14px 0 0;
+  max-width: 560px;
+  font-size: 0.82rem;
+  color: #7a756e;
+  line-height: 1.6;
+}
+
+.action-section .aside-note {
+  margin: 14px 0 0;
+  max-width: 560px;
+  font-size: 0.85rem;
+  color: #7a756e;
+}
+
+.action-section .form-privacy a,
+.action-section .aside-note a {
+  color: #5a7a9a;
+}
+
 .contacts-note {
   font-size: 0.85rem;
   color: #888;
