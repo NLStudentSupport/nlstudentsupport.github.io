@@ -1138,6 +1138,18 @@ footer a:hover {
   margin-bottom: 6px;
 }
 
+/* Phone numbers dial when tapped, so they have to read as links. */
+.crisis-section a {
+  color: #8a5a4a;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid #d8bcae;
+}
+
+.crisis-section a:hover {
+  border-bottom-color: #8a5a4a;
+}
+
 @media (max-width: 600px) {
   .support-hero {
     padding: 36px 0 28px;
