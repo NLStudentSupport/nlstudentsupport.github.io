@@ -1,0 +1,32 @@
+name: Links
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Several Dutch institutions sit behind a bot filter and answer 403 or
+          # 429 to anything that is not a browser, so those are accepted rather
+          # than reported. The localhost example in the README is not a link.
+          args: >-
+            --no-progress
+            --max-retries 3
+            --timeout 30
+            --accept "200..204,206,403,429"
+            --exclude "^http://localhost"
+            js/data.js index.html iran-support/index.html README.md
+          fail: true
