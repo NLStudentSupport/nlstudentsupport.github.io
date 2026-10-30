@@ -277,7 +277,7 @@ const universities = {
       disability: {
         title: "Disability Support (Horizon)",
         description: "Support for students with disabilities",
-        url: "https://www.tudelft.nl/en/student/my-study-me/counselling/studying-with-a-disability",
+        url: "https://www.tudelft.nl/en/student/my-study-me/counselling/studying-with-support-needs",
         email: "horizon-esa@tudelft.nl"
       },
       financial: {
