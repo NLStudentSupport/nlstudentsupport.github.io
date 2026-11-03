@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: read
+  actions: write
 
 jobs:
   linkcheck:
@@ -35,3 +36,10 @@ jobs:
             --exclude "forms\.gle"
             js/data.js index.html iran-support/index.html README.md
           fail: true
+      # GitHub disables scheduled workflows after 60 days without repository
+      # activity; re-enabling on every run keeps the schedule alive.
+      - name: Keep the scheduled workflow enabled
+        if: always() && github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X PUT repos/${{ github.repository }}/actions/workflows/links.yml/enable
